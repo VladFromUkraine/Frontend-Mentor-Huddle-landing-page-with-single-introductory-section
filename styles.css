@@ -1,0 +1,138 @@
+.logo{
+  width: 100%;
+  height: 150px;
+}
+body{
+  background-image: url('images/bg-desktop.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+}
+.hubble{
+  margin: 45px 0px 0px 140px;
+}
+.main{
+  display: flex;
+}
+.images{
+  width: 50%;
+  background-image: url('images/illustration-mockups.svg');
+height: 900px;
+background-repeat: no-repeat;
+display: inline-block;
+margin: 15px 0px 0px 100px;
+}
+.text{
+  width: 50%;
+  display: inline-block;
+  height: 900px;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+padding-top: 20px;
+width: 60%;
+font-size: 42px
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 68%;
+    font-size: 17px;
+    line-height: 23px;
+    word-spacing: 3px;
+    margin-top: 20px;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+margin-top: 40px;
+margin-left: 5px;
+color: hsl(257, 40%, 49%);
+background-color: white;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,.3);
+width: 20%;
+padding: 12px 14px 12px 20px;
+text-align: center;
+border-radius: 25px;
+
+}
+h2:hover{
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+  cursor: grab;
+}
+.all-icons{
+  width: 60%;
+}
+.icons{
+  width: 35px;
+  height: 35px;
+margin: 10px;
+  border: 0.5 solid white;
+  border-radius: 2px;
+  float: right;
+}
+.icons:hover{
+  cursor: grab;
+}
+.image-mobile{
+background-image: url('images/illustration-mockups.svg');
+  width: 320px;
+  height: 250px;
+  background-repeat: no-repeat;
+  display: none;
+  background-size: 100%
+}
+@media screen and (max-width: 844px) {
+.main{
+    width: 320px;
+  display: block;
+}
+.hubble{
+  margin: 40px 40px  10px 40px
+}
+.image-mobile{
+  display: block;
+}
+  .text{
+    width: 320px;
+  height: 800px;
+  display: block;
+  margin: 15px 0px 0px 20px;
+text-align: center;
+  }
+  .images{
+    width: 0%;
+    position: absolute;
+    visibility: hidden;
+  }
+  h1{
+
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 20px;
+  }
+  p{
+      width: 100%;
+      font-size: 16px;
+      line-height: 24px;
+      word-spacing: 2px;
+      margin-top: 10px;
+      margin-bottom: 20px
+  }
+  h2{
+  margin-top: 40px;
+  width: 70%;
+  margin: auto;
+  padding: 8px 10px 8px 10px;
+  text-align: center;
+  font-size: 16px;
+  }
+  .all-icons{
+    margin:auto;
+    margin-top: 50px
+  }
+}
